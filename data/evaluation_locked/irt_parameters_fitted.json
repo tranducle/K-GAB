@@ -1,0 +1,166 @@
+{
+  "fitted_parameters": [
+    {
+      "id": "PHYS-G10-ME-01_KGAB_K-GAB_(QWEN_3.6_PLUS)",
+      "model": "K-GAB (Qwen 3.6 Plus)",
+      "curriculum_code": "PHYS-G10-ME-01",
+      "estimated_a": 1.9400792721291493,
+      "estimated_b": -0.3624483141920277,
+      "estimated_c": 0.04882532988582783,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G10-ME-01_AB_MISCON_K-GAB_W/O_MISCONCEPTIONS",
+      "model": "K-GAB w/o Misconceptions",
+      "curriculum_code": "PHYS-G10-ME-01",
+      "estimated_a": 1.7599916434214378,
+      "estimated_b": -0.5832527859102634,
+      "estimated_c": 1.738665214772051e-08,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G10-ME-01_AB_ONTO_K-GAB_W/O_ONTOLOGY",
+      "model": "K-GAB w/o Ontology",
+      "curriculum_code": "PHYS-G10-ME-01",
+      "estimated_a": 1.9715173924960894,
+      "estimated_b": -0.46130499100740807,
+      "estimated_c": 0.05239846269680316,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G10-ME-01_DIRECT_QWEN_3.6_PLUS_DIRECT",
+      "model": "Qwen 3.6 Plus Direct",
+      "curriculum_code": "PHYS-G10-ME-01",
+      "estimated_a": 0.8568295234572227,
+      "estimated_b": -0.7272393322247306,
+      "estimated_c": 0.3464529841406676,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G10-ME-01_DIRECT_DEEPSEEK_V4_FLASH_DIRECT",
+      "model": "DeepSeek v4 Flash Direct",
+      "curriculum_code": "PHYS-G10-ME-01",
+      "estimated_a": 1.016631750934113,
+      "estimated_b": -0.9138900410027031,
+      "estimated_c": 0.22525058748590782,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G10-ME-01_DIRECT_GEMMA_4_31B_IT_DIRECT",
+      "model": "Gemma 4 31B IT Direct",
+      "curriculum_code": "PHYS-G10-ME-01",
+      "estimated_a": 1.0955563618931143,
+      "estimated_b": -0.07812839961780182,
+      "estimated_c": 0.4999999709706914,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G11-EM-01_KGAB_K-GAB_(QWEN_3.6_PLUS)",
+      "model": "K-GAB (Qwen 3.6 Plus)",
+      "curriculum_code": "PHYS-G11-EM-01",
+      "estimated_a": 1.9324628683551524,
+      "estimated_b": 0.5688642347178803,
+      "estimated_c": 0.04015833540954265,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G11-EM-01_AB_MISCON_K-GAB_W/O_MISCONCEPTIONS",
+      "model": "K-GAB w/o Misconceptions",
+      "curriculum_code": "PHYS-G11-EM-01",
+      "estimated_a": 2.237436977017518,
+      "estimated_b": 0.5058239809544645,
+      "estimated_c": 0.014497484134667234,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G11-EM-01_AB_ONTO_K-GAB_W/O_ONTOLOGY",
+      "model": "K-GAB w/o Ontology",
+      "curriculum_code": "PHYS-G11-EM-01",
+      "estimated_a": 1.9784650121782352,
+      "estimated_b": 0.5518576833567257,
+      "estimated_c": 0.017768314624703255,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G11-EM-01_DIRECT_QWEN_3.6_PLUS_DIRECT",
+      "model": "Qwen 3.6 Plus Direct",
+      "curriculum_code": "PHYS-G11-EM-01",
+      "estimated_a": 0.9240036358171498,
+      "estimated_b": 0.21047803140161242,
+      "estimated_c": 0.24922262711224002,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G11-EM-01_DIRECT_DEEPSEEK_V4_FLASH_DIRECT",
+      "model": "DeepSeek v4 Flash Direct",
+      "curriculum_code": "PHYS-G11-EM-01",
+      "estimated_a": 0.887885655252751,
+      "estimated_b": 0.09236960911900463,
+      "estimated_c": 0.2686271063111706,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G11-EM-01_DIRECT_GEMMA_4_31B_IT_DIRECT",
+      "model": "Gemma 4 31B IT Direct",
+      "curriculum_code": "PHYS-G11-EM-01",
+      "estimated_a": 1.1789268220860891,
+      "estimated_b": 0.6378540056500559,
+      "estimated_c": 0.4392364817910827,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G12-NP-01_KGAB_K-GAB_(QWEN_3.6_PLUS)",
+      "model": "K-GAB (Qwen 3.6 Plus)",
+      "curriculum_code": "PHYS-G12-NP-01",
+      "estimated_a": 1.6653765136219545,
+      "estimated_b": 1.4042932872420528,
+      "estimated_c": 2.1803278125347618e-08,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G12-NP-01_AB_MISCON_K-GAB_W/O_MISCONCEPTIONS",
+      "model": "K-GAB w/o Misconceptions",
+      "curriculum_code": "PHYS-G12-NP-01",
+      "estimated_a": 1.9409332207231478,
+      "estimated_b": 1.3710137798284103,
+      "estimated_c": 0.011299789537911688,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G12-NP-01_AB_ONTO_K-GAB_W/O_ONTOLOGY",
+      "model": "K-GAB w/o Ontology",
+      "curriculum_code": "PHYS-G12-NP-01",
+      "estimated_a": 2.499297435964473,
+      "estimated_b": 1.3133498757670004,
+      "estimated_c": 0.02176385610235359,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G12-NP-01_DIRECT_QWEN_3.6_PLUS_DIRECT",
+      "model": "Qwen 3.6 Plus Direct",
+      "curriculum_code": "PHYS-G12-NP-01",
+      "estimated_a": 1.275253401390383,
+      "estimated_b": 1.287127955983568,
+      "estimated_c": 0.3174771730307544,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G12-NP-01_DIRECT_DEEPSEEK_V4_FLASH_DIRECT",
+      "model": "DeepSeek v4 Flash Direct",
+      "curriculum_code": "PHYS-G12-NP-01",
+      "estimated_a": 0.8992461744760043,
+      "estimated_b": 1.08764062801626,
+      "estimated_c": 0.2840233054942187,
+      "convergence_success": true
+    },
+    {
+      "id": "PHYS-G12-NP-01_DIRECT_GEMMA_4_31B_IT_DIRECT",
+      "model": "Gemma 4 31B IT Direct",
+      "curriculum_code": "PHYS-G12-NP-01",
+      "estimated_a": 0.6107395410254708,
+      "estimated_b": 0.6738870325767421,
+      "estimated_c": 0.2574762368496537,
+      "convergence_success": true
+    }
+  ]
+}

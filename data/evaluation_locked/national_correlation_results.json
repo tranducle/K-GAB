@@ -1,0 +1,13 @@
+{
+  "project": "K-GAB",
+  "sample_size_items": 9,
+  "pearson_correlation_r": 0.9968886257863447,
+  "pearson_p_value": 5.5151263556041386e-09,
+  "t_statistic": 33.46128501686997,
+  "degrees_of_freedom": 7,
+  "rmse_convergence": 0.0,
+  "urban_correlation_r": 0.9970653689582687,
+  "rural_correlation_r": 0.9967052879629024,
+  "dif_regional_delta": 0.00036008099536632976,
+  "calibration_status": "gold_pass"
+}
