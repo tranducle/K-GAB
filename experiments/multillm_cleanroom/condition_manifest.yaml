@@ -1,0 +1,43 @@
+# Condition Manifest for K-GAB Multi-LLM Clean Room Experiment
+# Date Frozen: 2026-05-26
+
+conditions:
+  direct:
+    id: "C1-Direct"
+    description: "Direct zero-shot Vietnamese item-generation prompt."
+    graph_guard: false
+    formula_cas: false
+    misconception_map: false
+    retrieval: false
+    repair_loop: false
+    prompt_template: "prompt_templates/direct.txt"
+
+  constrained_prompt:
+    id: "C2-Constrained"
+    description: "Same model with a strong manually engineered prompt, but no RAG/CAS."
+    graph_guard: false
+    formula_cas: false
+    misconception_map: false
+    retrieval: false
+    repair_loop: false
+    prompt_template: "prompt_templates/constrained.txt"
+
+  retrieval_only_rag:
+    id: "C3-Retrieval"
+    description: "Curriculum/formula retrieval inserted into prompt, no semantic validation."
+    graph_guard: false
+    formula_cas: false
+    misconception_map: false
+    retrieval: true
+    repair_loop: false
+    prompt_template: "prompt_templates/retrieval_rag.txt"
+
+  k_gab_full:
+    id: "C4-KGAB"
+    description: "Full proposed framework."
+    graph_guard: true
+    formula_cas: true
+    misconception_map: true
+    retrieval: true
+    repair_loop: true
+    prompt_template: "prompt_templates/kgab_full.txt"

@@ -1,0 +1,56 @@
+\begin{table*}[htbp]
+\centering
+\caption{Multi-LLM Clean Room Benchmark Results (Mean \% over 10 Attempts per cell, $N = 2,640$ total runs)}
+\begin{tabular}{llccc}
+\toprule
+\textbf{Model} & \textbf{Condition} & \textbf{Formula Acc.} & \textbf{Distractor Plaus.} & \textbf{Format Ok} \\
+\midrule
+DeepSeek v4 Pro & Direct Zero-Shot & 30.8\% & 32.5\% & 14.2\% \\
+ & Constrained Prompt & 30.0\% & 30.0\% & 30.0\% \\
+ & Retrieval-only RAG & 31.7\% & 30.8\% & 30.8\% \\
+ & \textbf{K-GAB Framework} & 11.7\% & 11.7\% & 10.8\% \\
+\midrule
+Gemma 4 31B It & Direct Zero-Shot & 50.0\% & 50.0\% & 10.8\% \\
+ & Constrained Prompt & 45.0\% & 48.3\% & 59.2\% \\
+ & Retrieval-only RAG & 42.5\% & 44.2\% & 53.3\% \\
+ & \textbf{K-GAB Framework} & 42.5\% & 47.5\% & 55.0\% \\
+\midrule
+GLM 5 & Direct Zero-Shot & 73.3\% & 78.3\% & 21.7\% \\
+ & Constrained Prompt & 71.7\% & 71.7\% & 73.3\% \\
+ & Retrieval-only RAG & 72.5\% & 75.0\% & 76.7\% \\
+ & \textbf{K-GAB Framework} & 53.3\% & 53.3\% & 53.3\% \\
+\midrule
+GLM 5.1 & Direct Zero-Shot & 44.2\% & 44.2\% & 21.7\% \\
+ & Constrained Prompt & 30.0\% & 30.0\% & 27.5\% \\
+ & Retrieval-only RAG & 40.8\% & 40.0\% & 37.5\% \\
+ & \textbf{K-GAB Framework} & 35.8\% & 36.7\% & 32.5\% \\
+\midrule
+GPT OSS 120B & Direct Zero-Shot & 55.0\% & 61.7\% & 34.2\% \\
+ & Constrained Prompt & 51.7\% & 58.3\% & 98.3\% \\
+ & Retrieval-only RAG & 58.3\% & 64.2\% & 96.7\% \\
+ & \textbf{K-GAB Framework} & 57.5\% & 65.0\% & 99.2\% \\
+\midrule
+Kimi k2.6 & Direct Zero-Shot & 70.9\% & 64.8\% & 29.9\% \\
+ & Constrained Prompt & 67.5\% & 65.0\% & 47.2\% \\
+ & Retrieval-only RAG & 81.1\% & 74.3\% & 59.1\% \\
+ & \textbf{K-GAB Framework} & 70.9\% & 63.9\% & 35.6\% \\
+\midrule
+MiniMax m2.5 & Direct Zero-Shot & 17.5\% & 15.8\% & 6.7\% \\
+ & Constrained Prompt & 21.7\% & 21.7\% & 21.7\% \\
+ & Retrieval-only RAG & 16.7\% & 17.5\% & 17.5\% \\
+ & \textbf{K-GAB Framework} & 21.7\% & 21.7\% & 21.7\% \\
+\midrule
+Nemotron 3 120B & Direct Zero-Shot & 82.8\% & 84.4\% & 31.9\% \\
+ & Constrained Prompt & 91.7\% & 92.5\% & 89.2\% \\
+ & Retrieval-only RAG & 93.3\% & 93.3\% & 89.2\% \\
+ & \textbf{K-GAB Framework} & 83.1\% & 83.9\% & 73.6\% \\
+\midrule
+Qwen 3.6 Plus & Direct Zero-Shot & 86.7\% & 87.5\% & 45.0\% \\
+ & Constrained Prompt & 73.3\% & 73.3\% & 73.3\% \\
+ & Retrieval-only RAG & 74.2\% & 75.0\% & 75.0\% \\
+ & \textbf{K-GAB Framework} & 66.7\% & 66.7\% & 66.7\% \\
+
+\bottomrule
+\end{tabular}
+\label{tab:benchmark_results}
+\end{table*}

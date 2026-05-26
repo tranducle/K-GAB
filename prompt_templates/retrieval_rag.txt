@@ -1,0 +1,7 @@
+Generate a multiple-choice physics question for {topic} (Grade {grade}).
+The question must be written in Vietnamese and be appropriate for cognitive tier: {tier}.
+Context Retrieved:
+- Core Formula: {formula}
+
+Constraint 1: The question must explicitly test the Core Formula provided above.
+Constraint 2: Format as JSON with "question", "options", "answer", and "explanation".

@@ -1,0 +1,3 @@
+Generate a multiple-choice physics question for {topic} (Grade {grade}).
+The question must be written in Vietnamese and be appropriate for cognitive tier: {tier}.
+Do not provide any constraints, just generate the question and options.

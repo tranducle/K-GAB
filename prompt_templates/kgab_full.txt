@@ -1,0 +1,8 @@
+Generate a multiple-choice physics question for {topic} (Grade {grade}).
+The question must be written in Vietnamese and be appropriate for cognitive tier: {tier}.
+Context Retrieved from Graph:
+- Core Formula: {formula}
+
+Constraint 1 (Formula Strictness): The question must explicitly test the Core Formula.
+Constraint 2 (Misconception Mapping): You MUST generate 3 distractors based on common student misconceptions.
+Constraint 3 (Schema): Format strictly as JSON with "question", "options" (A,B,C,D), "answer", and "explanation".

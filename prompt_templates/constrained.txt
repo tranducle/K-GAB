@@ -1,0 +1,5 @@
+Generate a multiple-choice physics question for {topic} (Grade {grade}).
+The question must be written in Vietnamese and be appropriate for cognitive tier: {tier}.
+Constraint 1: Use standard MOET Vietnamese terminology.
+Constraint 2: Ensure options are distinct.
+Constraint 3: Format as JSON with "question", "options", "answer", and "explanation".

@@ -1,0 +1,26 @@
+# Run Manifest for Multi-LLM Clean Room Experiment
+experiment_name: "KGAB_MultiLLM_Validity_Test"
+run_date: "2026-05-26"
+target_specs_path: "../data/target_specs/target_specs.jsonl"
+output_dir: "results"
+
+repeats_per_cell: 1
+
+models:
+  - "deepseek-v4-flash"
+  - "gemma-4-31b-it"
+  - "nemotron-3-super-120b"
+  - "minimax-m2.5"
+  - "gpt-oss-120b"
+  - "gpt-5.4"
+  - "qwen3.6-plus"
+  - "glm-5"
+  - "glm-5.1"
+  - "kimi-k2.6"
+  - "deepseek-v4-pro"
+
+conditions:
+  - "direct"
+  - "constrained_prompt"
+  - "retrieval_only_rag"
+  - "k_gab_full"
